@@ -1,12 +1,9 @@
 package org.launchcode.codingevents.models;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.Entity;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-import jakarta.persistence.Entity;
-import java.util.Objects;
 
 /**
  * Created by Chris Bay
