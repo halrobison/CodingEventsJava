@@ -2,11 +2,8 @@ package org.launchcode.codingevents.controllers;
 
 import jakarta.validation.Valid;
 import org.launchcode.codingevents.data.EventCategoryRepository;
-import org.launchcode.codingevents.models.Event;
 import org.launchcode.codingevents.models.EventCategory;
-import org.launchcode.codingevents.models.EventType;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.Banner;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
